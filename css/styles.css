@@ -49,6 +49,11 @@ body {
     margin-right: auto; 
 }
 
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 /* ==================Header================== */
 
 .header-container {
@@ -56,8 +61,7 @@ body {
     align-items: center;
     justify-content: space-between;
 
-    border: 1px solid #ECECEC;
-    
+    border-top: 1px solid #ECECEC;
 }
 
 .header {
@@ -175,6 +179,7 @@ color: #FFFFFF;
 }
 
 .modal-button {
+    min-width: 200px;
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
@@ -200,6 +205,20 @@ color: #FFFFFF;
 
 /* ==================Section Anvantages================== */
 
+.advantages-container {
+    display:flex;
+    justify-content: space-between;
+}
+
+.advantages-container-item {
+    min-width: 270px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.advantages-container-item:not(:last-child) {
+margin-right: 30px;
+}
 
 .advantages-subtitle {
     font-weight: 700;
@@ -228,6 +247,8 @@ letter-spacing: 0.03em;
 }
 
 /* ==================Services================== */
+
+
 
 
 /* ==================Our Team================== */
